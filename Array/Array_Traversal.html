@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Array Traversing</title>
+        <script>
+            let data=[1,4,2,7,9,3,5,0,6]
+            let ivalue =2
+            for(let i=0;i<data.length;i++){
+               // document.write(`${data[i]}<br>`);
+               if(i == ivalue){
+                data[i]=4;
+               }
+               
+            }
+           // data = data[data.length] 
+           // data.push(7);
+            document.write(`${data}<br>`);
+            // function getElement(){
+            //     let ele = document.getElementById('element').value;
+            //     alert(ele);
+            // }
+        </script>
+    </head>
+    <body>
+      <input type="text" id="element"/>
+      <button onclick="getElement()">Get Element</button>
+    </body>
+</html>
